@@ -10,9 +10,7 @@ def q1():
 
     Variables in the SELECT: ?author.
     """
-    # TODO: SELECT distinct authors of papers where ?paper :publishedIn :NeurIPS.
-    def q1():
-     """
+    """
     PREFIX : <http://example.org/publications#>
 
     SELECT ?author
@@ -20,8 +18,8 @@ def q1():
         ?paper :authoredBy ?author ;
                :publishedIn :NeurIPS .
     }
-    """
-    return ""
+    
+    """ 
 
 
 def q2():
